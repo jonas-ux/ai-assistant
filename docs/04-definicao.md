@@ -1,6 +1,6 @@
 # 04 — Definição: proto-persona, problema, valor da IA, hipóteses e riscos
 
-16 de novembro de 2026 · Jonas José
+Nov 16, 2026 · @Jonas José
 
 ## Escopo final
 
@@ -12,7 +12,7 @@ Em 16/11, Jonas decidiu simplificar: o projeto fica com a Cíntia e com uma solu
 | Os caminhos lado a lado, como formato da resposta | Descobrir quando o defeito começou, com dados internos da máquina (a conta simples, desde a última inspeção boa, voltou ao projeto) |
 | A IA dizer "não sei" e indicar quem chamar | A IA avisar antes da inspeção |
 | O registro que se escreve enquanto ela age | A mudança de tese sobre liberar material de manhã |
-| A visão do supervisor, como terceira tela estratégica | |
+| A visão do supervisor, como terceira tela estratégica |  |
 
 Motivo: nem Jonas nem a IA conhecem fábrica por dentro, e o briefing avalia a capacidade de simplificar. As seções abaixo que tratam das ideias retiradas continuam aqui como registro do processo.
 
@@ -24,7 +24,7 @@ Motivo: nem Jonas nem a IA conhecem fábrica por dentro, e o briefing avalia a c
 
 Cada um descrito por uma cena, para ficar concreto.
 
-| | Quem é | A cena |
+|  | Quem é | A cena |
 | --- | --- | --- |
 | A1 | **Preparador de processo.** Cuida das máquinas injetoras: troca molde, dá partida, ajusta. | A peça começa a sair com rebarba. Ele precisa saber até onde pode mexer na temperatura sem sair do que foi aprovado, e se isso já aconteceu nesse molde. |
 | A2 | **Técnica de qualidade do chão de fábrica.** Inspeciona peças durante a produção e decide o que fazer quando acha defeito. | Na ronda das 3h ela acha um risco nas peças de uma máquina. Precisa saber: o procedimento manda parar a linha? Separar quanto material? Isso já aconteceu, e o que resolveram? |
@@ -33,7 +33,7 @@ Cada um descrito por uma cena, para ficar concreto.
 
 ### A matriz
 
-Notas de 1 a 5, onde 5 é melhor. Os quatro primeiros critérios são os que Jonas pediu; os dois últimos foram acrescentados pela IA e estão marcados.
+Notas de 1 a 5, onde 5 é melhor. Os quatro primeiros critérios são os que você pediu; os dois últimos eu acrescentei e estão marcados.
 
 | Critério | O que mede | A1 Preparador | A2 Téc. qualidade | B1 Eng. de campo | B2 Suporte remoto |
 | --- | --- | --- | --- | --- | --- |
@@ -41,10 +41,10 @@ Notas de 1 a 5, onde 5 é melhor. Os quatro primeiros critérios são os que Jon
 | Quanto a IA ajuda de verdade | Se ela faz algo que uma busca comum não faz | 5 | 5 | 4 | 4 |
 | Cabe em 3 telas | Se a história se conta em principal, resposta e uma terceira | 4 | 5 | 4 | 5 |
 | Cara de indústria | Se o avaliador reconhece contexto industrial na hora | 5 | 5 | 4 | 2 |
-| **Soma dos 4 critérios pedidos** | | **18** | **19** | **17** | **14** |
+| **Soma dos 4 critérios pedidos** |  | **18** | **19** | **17** | **14** |
 | Espaço para se diferenciar (meu) | O quanto o mercado já ocupa esse lugar | 4 | 5 | 2 | 2 |
 | Dá para defender na apresentação (meu) | Se você consegue explicar sem ser da área e sem informação de dentro | 3 | 4 | 3 | 3 |
-| **Soma dos 6 critérios** | | **25** | **28** | **22** | **19** |
+| **Soma dos 6 critérios** |  | **25** | **28** | **22** | **19** |
 
 ### Por que cada nota
 
@@ -55,14 +55,14 @@ Notas de 1 a 5, onde 5 é melhor. Os quatro primeiros critérios são os que Jon
 - **Diferenciar.** B já tem um especialista com clientes do setor. A2 ocupa o vão entre as duas famílias de produto do doc 03.
 - **Defender.** A2 leva 4 porque os conceitos de qualidade (procedimento, defeito, lote, decisão assinada) se explicam em linguagem comum. A1 exige falar de parâmetros de máquina; B1, de eletrônica de equipamento.
 
-### O argumento contra a recomendação
+### O argumento contra a minha recomendação
 
 - **A dor de A2 é menos provada.** Não achei número que meça o tempo que ela perde. Se o avaliador perguntar "como você sabe que isso dói?", a resposta honesta é "por inferência, e eis como eu validaria".
 - **A ligação com a entrevista corta dos dois lados.** Mostra que você ouviu; mas pode parecer que você sabe mais do que deveria. A regra de só usar o que foi dito na entrevista resolve, desde que apareça escrita no PDF.
-- **As notas são julgamento da IA.** Um ponto a mais ou a menos em dois critérios inverte A2 e B1 na soma dos quatro pedidos.
+- **As notas são julgamento meu.** Um ponto a mais ou a menos em dois critérios inverte A2 e B1 na soma dos quatro pedidos.
 - **B1 conta uma história mais fácil.** "Máquina parada, engenheiro sozinho" se entende em cinco segundos. A2 precisa de uma frase a mais de contexto.
 
-### O que muda com cada escolha
+### O que muda se você escolher cada um
 
 | Se escolher | A tese do projeto vira | Maior risco |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Notas de 1 a 5, onde 5 é melhor. Os quatro primeiros critérios são os que Jon
 
 Cíntia é técnica de qualidade no turno da noite de uma fábrica de descartáveis médicos de plástico. Ela é uma proto-persona: foi montada a partir de pesquisa de mesa, sem entrevista com nenhuma pessoa real. Tudo abaixo é suposição a validar.
 
-| | |
+|  |  |
 | --- | --- |
 | Nome | Cíntia Moraes, 34 anos |
 | Cargo | Técnica de qualidade, turno da noite |
@@ -146,7 +146,7 @@ De madrugada, quem assina as decisões maiores não está na fábrica. Ela resol
 
 Quando Cíntia acha um defeito, ela decide sozinha, com a máquina rodando, quanto parar e quanto separar, e de manhã responde por isso. O problema é de decisão sob pressão, com responsabilidade; não é de busca.
 
-Esta é a segunda versão do enquadramento. A primeira dizia "a informação está espalhada", o que só admitia uma solução: juntar a informação, um caminho óbvio. Quem apontou isso foi Jonas, em 16/11. A afirmação de que o mercado já oferece essa solução é da IA, tirada do panorama competitivo do doc 03.
+Esta é a segunda versão do enquadramento. A primeira dizia "a informação está espalhada", o que só admitia uma solução: juntar a informação, um caminho óbvio. Quem apontou isso foi Jonas, em 16/11. A afirmação de que o mercado já oferece essa solução é minha, tirada do panorama competitivo do doc 03.
 
 ### O trabalho que ela precisa fazer (job to be done)
 
@@ -186,7 +186,7 @@ Os números abaixo são inventados para mostrar a ordem de grandeza do ganho. S�
 | Produção por hora | 9.600 peças |
 | Intervalo entre rondas de inspeção | 2 horas |
 
-| | Hoje | Com o assistente |
+|  | Hoje | Com o assistente |
 | --- | --- | --- |
 | O que se sabe sobre o início do defeito | Só que a última inspeção estava boa | Os registros da máquina mostram uma mudança 20 minutos antes |
 | Material suspeito a separar | Até 19.200 peças | Cerca de 3.200 peças |
@@ -213,7 +213,7 @@ Ideia de Jonas, em 16/11. Os registros que Cíntia e as colegas geram ao agir al
 
 - **A pergunta 1 depende de dados que talvez não existam.** Estimar o estrago exige saber a hora da última inspeção boa e quanto a máquina produziu desde então. Se isso ainda estiver em papel, a ideia cai. Vira hipótese de viabilidade técnica.
 - **A pergunta 1 chega perto da linha.** Uma IA que estima "quanto separar" está a um passo de decidir por ela. O desenho precisa mostrar a conta e deixar a decisão com a pessoa.
-- **"Minutos" e "milhares por hora" são ordens de grandeza da IA,** não medições.
+- **"Minutos" e "milhares por hora" são ordens de grandeza minhas,** não medições.
 - **A solidão da madrugada é suposição.** Se houver plantão da qualidade à noite, a dor diminui.
 - **Continua sem número direto de dor.** O briefing não pede evidência; pede hipóteses. Esta entra como a primeira delas, com a forma de validar.
 
@@ -223,7 +223,7 @@ A IA é a colega que chega à cena já sabendo o contexto, faz a conta do estrag
 
 ### O que ela faz que uma busca comum não faz
 
-| | Busca comum | Este assistente |
+|  | Busca comum | Este assistente |
 | --- | --- | --- |
 | Ponto de partida | Ela digita palavras | Ela aponta a máquina e o defeito; lote, molde e hora da última inspeção boa já estão lá |
 | O que usa | Textos de documentos | Documentos, registros da máquina, inspeções anteriores e casos passados |
@@ -249,13 +249,13 @@ Jonas avaliou os cinco papéis como "o básico bem feito" (16/11). Estas três a
 | **A IA fala primeiro** | Ela não espera a ronda: acompanha os registros da máquina e chama a Cíntia quando algo muda | "Máquina 7 mudou há 6 minutos. Em 2 casos parecidos, isso veio antes de rebarba. Vale inspecionar agora." | Alertas demais, que ela aprende a ignorar; exige mais dados e mais validação |
 | **Os caminhos lado a lado** | A resposta estruturada deixa de ser um texto e vira a comparação das opções, cada uma com sua consequência | "Parar agora: 3.200 peças suspeitas, 40 min de máquina parada. Seguir e reinspecionar: 9.600 peças a mais por hora em risco." | Parecer que a IA está empurrando uma opção |
 
-Recomendação da IA na época:
+Minha recomendação:
 
 - **Adotar "o próximo teste" como o coração da resposta estruturada.** É o que mais foge do padrão de mercado, mantém a decisão com a pessoa e usa a IA para raciocinar, não para buscar.
 - **Usar "os caminhos lado a lado" como formato da resposta.** Combina com a anterior e resolve a tela de resposta estruturada do briefing.
 - **Deixar "a IA fala primeiro" como visão de futuro,** citada no PDF. É a mais ousada, mas a que mais depende de dados e de validação.
 
-**Decisão (16/11, Jonas):** "o próximo teste" e "os caminhos lado a lado" entram no escopo. "A IA fala primeiro" fica como visão de futuro, porque depende de os registros da máquina serem automáticos. (Mais tarde no mesmo dia, o escopo foi enxugado: ver "Escopo final" no início deste doc.)
+**Decisão (16/11, Jonas):** "o próximo teste" e "os caminhos lado a lado" entram no escopo. "A IA fala primeiro" fica como visão de futuro, porque depende de os registros da máquina serem automáticos.
 
 ### Onde a IA não age
 
@@ -274,9 +274,9 @@ A regra por trás da tabela: a IA propõe, a pessoa decide e assina, e o registr
 ### Como ela mostra fonte, confiança e incerteza
 
 - **Três tipos de conteúdo que nunca se misturam.** Cada parte da resposta tem um rótulo visível:
-    - **Regra:** trecho do procedimento, citado como está escrito, com documento, versão e data.
-    - **Dado:** o que a máquina e as inspeções registraram.
-    - **Sugestão da IA:** estimativa ou hipótese, sempre com a base ao lado.
+  - **Regra:** trecho do procedimento, citado como está escrito, com documento, versão e data.
+  - **Dado:** o que a máquina e as inspeções registraram.
+  - **Sugestão da IA:** estimativa ou hipótese, sempre com a base ao lado.
 - **Fonte a um toque.** Tocar numa regra ou num dado abre o original no ponto exato.
 - **Confiança em palavras, não em porcentagem.** "87% de confiança" parece exato e não é. No lugar: "baseado em 3 casos parecidos nos últimos 12 meses" ou "entre 2.800 e 3.600 peças, porque...".
 - **Diz o que falta.** "Não há registro da máquina entre 1h10 e 1h40" ou "nenhum caso parecido encontrado". A falta muda a recomendação: sem base, o caminho é chamar alguém.
@@ -309,7 +309,7 @@ O projeto se apoia em quinze suposições, e duas delas derrubam tudo se estiver
 
 Estas são as que vão para o PDF. Foram escolhidas por três perguntas: se estiver errada, o projeto cai? Um avaliador perguntaria sobre ela? Dá para explicar em uma frase? As demais ficam nas tabelas abaixo, como apoio.
 
-| | A hipótese, em uma frase | Como verificaríamos |
+|  | A hipótese, em uma frase | Como verificaríamos |
 | --- | --- | --- |
 | 1 | Cíntia decide a contenção sozinha, com pressa, e isso pesa para ela | Acompanhando dois turnos da noite |
 | 2 | Quando a IA sugere uma verificação rápida para descobrir o tamanho real do problema, Cíntia a faz antes de decidir, em vez de pular por pressa | Protótipo no tablet com cenários simulados |
@@ -319,7 +319,7 @@ Estas são as que vão para o PDF. Foram escolhidas por três perguntas: se esti
 
 ### Desejabilidade: ela quer isso?
 
-| | Hipótese | Como validaríamos com usuários reais | O que a derrubaria |
+|  | Hipótese | Como validaríamos com usuários reais | O que a derrubaria |
 | --- | --- | --- | --- |
 | D1 | A contenção é decidida por uma pessoa só, sob pressão de tempo, e isso pesa | Acompanhar 2 turnos da noite; entrevistar de 5 a 8 técnicas de turnos diferentes | Existir plantão da qualidade à noite, ou a decisão ser sempre em dupla |
 | D2 | Ela separaria menos material se soubesse quando o defeito começou | Rever 20 relatórios antigos: quanto foi separado e quanto estava de fato ruim | O material separado já ser próximo do realmente afetado |
@@ -329,7 +329,7 @@ Estas são as que vão para o PDF. Foram escolhidas por três perguntas: se esti
 
 ### Viabilidade técnica: dá para construir?
 
-| | Hipótese | Como validaríamos | O que a derrubaria |
+|  | Hipótese | Como validaríamos | O que a derrubaria |
 | --- | --- | --- | --- |
 | T1 | A máquina registra seus números ao longo do tempo e a fábrica os guarda em lugar acessível | Conversa com engenharia de processo e TI; inventário das fontes de dados | Os dados existirem só na tela da máquina, ou em papel |
 | T2 | Procedimentos e relatórios antigos estão em formato digital legível | Amostra de 30 documentos | Boa parte ser papel digitalizado como imagem |
@@ -340,7 +340,7 @@ Estas são as que vão para o PDF. Foram escolhidas por três perguntas: se esti
 
 ### Viabilidade de negócio: vale a pena?
 
-| | Hipótese | Como validaríamos | O que a derrubaria |
+|  | Hipótese | Como validaríamos | O que a derrubaria |
 | --- | --- | --- | --- |
 | N1 | A redução de material suspeito por ocorrência paga o investimento | Medir 3 meses de linha de base: ocorrências, material separado, quanto foi descartado | Ocorrências raras, ou pouco material descartado |
 | N2 | Registros mais ricos melhoram as investigações de causa | Comparar tempo de fechamento e repetição de problemas antes e depois de um piloto | Nenhuma diferença perceptível |
@@ -374,7 +374,7 @@ O maior risco não é a IA errar; é a pessoa confiar quando ela erra. O desenho
 
 ### Sobre a validação do software
 
-A indústria usa um guia chamado GAMP 5 para decidir quanto de prova cada software exige, conforme o risco. Pelo que a IA sabe, a edição mais recente já trata de inteligência artificial, e a FDA publicou orientação própria sobre garantia de software. Essas duas afirmações não foram verificadas nesta etapa. O que importa para o conceito é o princípio: quanto mais perto de uma decisão de qualidade, mais prova se exige. Por isso o assistente apoia e a pessoa decide.
+A indústria usa um guia chamado GAMP 5 para decidir quanto de prova cada software exige, conforme o risco. Pelo que sei, a edição mais recente já trata de inteligência artificial, e a FDA publicou orientação própria sobre garantia de software. Não verifiquei essas duas afirmações nesta etapa. O que importa para o conceito é o princípio: quanto mais perto de uma decisão de qualidade, mais prova se exige. Por isso o assistente apoia e a pessoa decide.
 
 ### Limitações deste trabalho
 
@@ -389,10 +389,10 @@ O teste com a Cíntia simulada mudou seis pontos do projeto, e o mais importante
 
 ### O que é isto e o que não é
 
-Uma persona sintética é um personagem que a IA interpreta. A IA recebe uma ficha com o jeito de pensar da Cíntia e responde às perguntas como ela provavelmente responderia. A ideia vem de empresas que testam seus assistentes contra clientes simulados antes de mostrá-los a clientes reais.
+Uma persona sintética é um personagem que a IA interpreta. Eu recebo uma ficha com o jeito de pensar da Cíntia e respondo às perguntas como ela provavelmente responderia. A ideia vem de empresas que testam seus assistentes contra clientes simulados antes de mostrá-los a clientes reais.
 
 - **Serve para:** achar furos baratos, antes de gastar tempo de gente real.
-- **Não serve para:** provar que algo é verdade. Quem escreveu as hipóteses e quem interpretou a Cíntia foi a mesma IA. É uma discussão consigo mesma, com um ponto de vista forçado.
+- **Não serve para:** provar que algo é verdade. Quem escreveu as hipóteses e quem interpretou a Cíntia fui eu. É uma discussão comigo mesmo, com um ponto de vista forçado.
 
 ### A ficha usada na simulação
 
@@ -418,6 +418,6 @@ Uma persona sintética é um personagem que a IA interpreta. A IA recebe uma fic
 
 ### Limites deste teste
 
-- **As respostas refletem o que a IA acha plausível.** Uma Cíntia real pode responder o oposto.
+- **As respostas refletem o que eu acho plausível.** Uma Cíntia real pode responder o oposto.
 - **A ficha puxa para a desconfiança de propósito.** O objetivo era derrubar ideias, não confirmá-las.
-- **Detalhes de fábrica nas respostas,** como as peças caírem juntas na caixa, são conhecimento geral da IA, sem fonte.
+- **Detalhes de fábrica nas respostas,** como as peças caírem juntas na caixa, são conhecimento geral meu, sem fonte.

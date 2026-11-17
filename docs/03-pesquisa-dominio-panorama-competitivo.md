@@ -1,6 +1,6 @@
 # 03 — Pesquisa de domínio + panorama competitivo
 
-14 de novembro de 2026 · Jonas José
+Nov 14, 2026 · @Jonas José
 
 ## Como ler este doc
 
@@ -12,7 +12,7 @@ Este doc descreve dois contextos de trabalho do MedTech industrial, na mesma pro
 
 ## Glossário para quem não é da área
 
-Os termos abaixo aparecem no doc inteiro. Cada um está explicado como se explicaria a alguém de fora da indústria.
+Os termos abaixo aparecem no doc inteiro. Cada um está explicado como eu explicaria a alguém de fora da indústria.
 
 | Termo | O que é, em linguagem comum |
 | --- | --- |
@@ -108,7 +108,7 @@ Com o QMSR, os termos americanos DMR, DHR e DHF saíram do regulamento e deram l
 - **Decidir na hora se um desvio é ajuste ou mudança.** O preparador precisa saber o limite validado daquele parâmetro, naquele molde, e o que já foi tentado antes.
 - **Achar o precedente.** A resposta para "isso já aconteceu?" está em NCs e CAPAs antigas, escritas por outras pessoas em outros turnos.
 
-Ressalva importante: os dados de inspeção da FDA valem para fabricantes de dispositivo acabado. Quem faz só o componente plástico costuma ser cobrado pelo cliente, por auditoria de fornecedor, e não diretamente pela FDA. Isso muda quem é o "auditor" na história, e esse ponto não foi confirmado em fonte primária.
+Ressalva importante: os dados de inspeção da FDA valem para fabricantes de dispositivo acabado. Quem faz só o componente plástico costuma ser cobrado pelo cliente, por auditoria de fornecedor, e não diretamente pela FDA. Isso muda quem é o "auditor" na história, e eu não confirmei esse ponto em fonte primária.
 
 ## Caminho B — serviço de campo de equipamentos de imagem
 
@@ -160,12 +160,12 @@ As atribuições do engenheiro de campo vêm de vagas reais ([GE Healthcare](htt
 | IEC 62353 (ABNT NBR IEC 62353) | Ensaios de segurança elétrica recorrentes e após reparo ([catálogo da norma](https://genorma.com/en/standards/iec-62353-2014-ed2/amp)) |
 | ANVISA RDC 509/2021 | O hospital deve ter plano de gerenciamento dos equipamentos, com rastreabilidade ([texto da RDC](https://fitoterapiabrasil.com.br/sites/default/files/legislacao/rdc_509_2021_comp.pdf)) |
 | Diretrizes de segurança em ressonância do ACR | Quatro zonas de acesso; a sala do magneto é a zona IV, a mais restrita ([artigo no PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10657250)) |
-| Regras de proteção radiológica | Controle de exposição em tomografia; no Brasil, norma da ANVISA para radiologia diagnóstica, não verificada nesta rodada |
+| Regras de proteção radiológica | Controle de exposição em tomografia; no Brasil, norma da ANVISA para radiologia diagnóstica, que não verifiquei nesta rodada |
 
 ### Restrições físicas
 
 - **Nada ferromagnético perto do magneto.** O campo está sempre ligado e objetos de ferro viram projéteis ([OpenAnesthesia](https://www.openanesthesia.org/keywords/magnetic-resonance-imaging-safety/)). Notebook e celular comuns ficam fora da sala.
-- **Sem sinal dentro da sala.** A sala de ressonância é construída como gaiola de Faraday para bloquear radiofrequência externa ([Radiopaedia](https://radiopaedia.org/articles/radiofrequency-shielding)). Wi-Fi e celular não entram; isso é inferência a partir da física, não um relato de engenheiro.
+- **Sem sinal dentro da sala.** A sala de ressonância é construída como gaiola de Faraday para bloquear radiofrequência externa ([Radiopaedia](https://radiopaedia.org/articles/radiofrequency-shielding)). Wi-Fi e celular não entram; isso é inferência minha a partir da física, não um relato de engenheiro.
 - **Rede do hospital não é dele.** Conexão depende da rede de visitantes ou do próprio celular, fora da sala.
 - **Mãos ocupadas e postura ruim.** Trabalho dentro do gantry e atrás de gabinetes, com ferramenta na mão.
 - **Sozinho e sob pressão.** As vagas pedem trabalho independente, sem supervisão ([Symmetrio](https://remotejobs.jobboardly.com/jobs/senior-field-service-engineer-imaging-mri-ct-69bfce8a)), com a equipe do hospital perguntando quando volta.
@@ -176,7 +176,7 @@ As atribuições do engenheiro de campo vêm de vagas reais ([GE Healthcare](htt
 - **Quase metade das visitas não resolve na primeira vez.** Em imagem, a taxa de resolução na primeira visita fica em torno de 60%; uma visita falha aumenta o custo em 87% e adiciona 12 dias ao reparo ([AuntMinnie, sobre relatório da Aquant](https://auntminnie.com/practice-management/service/equipment/article/15742637/ai-for-medical-imaging-service-technicians-speeds-fixit-resolution-time)). A Philips declara 88% para si ([Philips](https://www.philips.co.id/healthcare/service/remote-maintenance)).
 - **Distância entre o melhor e o pior.** As melhores equipes resolvem na primeira visita 83% das vezes; as piores, 56% ([Aquant](https://discover.aquant.ai/medical-device-service-benchmarks)). Isso sugere que o conhecimento está na cabeça de poucos veteranos.
 - **Acesso a documentação é disputado.** Empresas multimarcas reclamam de dificuldade para obter manuais e especificações dos fabricantes; a FDA analisou o tema em 2018 e não impôs novas regras ([FDA](https://www.fda.gov/media/113431/download?attachment)).
-- **Equipamento parado custa caro, mas não se sabe quanto.** As cifras publicadas vão de 7.900 dólares por hora a 50.000 dólares por hora, todas de fornecedores de software. Nenhuma deve ir para o PDF.
+- **Equipamento parado custa caro, mas não sei quanto.** As cifras publicadas vão de 7.900 dólares por hora a 50.000 dólares por hora, todas de fornecedores de software. Não usaria nenhuma no PDF.
 
 ## A e B lado a lado
 
@@ -209,11 +209,11 @@ A base regulatória é sólida; a descrição do dia a dia é fraca e quase toda
 | Média | Vagas de emprego; citações da FDA analisadas por terceiros; artigo sobre zonas de ressonância | Dados reais, mas vagas descrevem o cargo ideal, não o dia real |
 | Baixa | Blogs de fabricantes de peças (Rosti, RapidDirect, SG Systems); relatório da Aquant; números da Philips sobre si mesma; custo de equipamento parado; um episódio de podcast | Material de venda, autodeclaração ou relato de uma pessoa só |
 
-Problemas específicos encontrados:
+Problemas específicos que encontrei:
 
-- **O número de CAPA muda conforme a conta.** Uma análise dá 342 citações e 12,8%; outra dá 279 e 10,5%. A primeira soma todo o artigo 820.100; a segunda conta só a alínea (a). Foi usada a primeira, e a ordem de grandeza é a mesma.
+- **O número de CAPA muda conforme a conta.** Uma análise dá 342 citações e 12,8%; outra dá 279 e 10,5%. A primeira soma todo o artigo 820.100; a segunda conta só a alínea (a). Usei a primeira e a ordem de grandeza é a mesma.
 - **A taxa de 60% vem de quem vende a solução.** A Aquant vende IA para serviço de campo. O número é plausível, mas tem interesse embutido.
-- **Uma fonte errou a unidade.** Um site de consultoria descreve a classe da sala limpa em partículas "por pé quadrado"; a norma mede por volume de ar. Essa fonte foi descartada.
+- **Uma fonte errou a unidade.** Um site de consultoria descreve a classe da sala limpa em partículas "por pé quadrado"; a norma mede por volume de ar. Descartei essa fonte.
 - **Viés de país.** Papéis, turnos e rotina vêm de vagas dos Estados Unidos. Do Brasil, só as normas.
 
 O que ficou sem resposta:
@@ -246,7 +246,7 @@ São três famílias de produto. Nenhuma é concorrente de verdade num exercíci
 1. **Chat sobre os documentos da casa virou item de série.** A Tulip responde a partir da instrução de trabalho ou do registro ([Tulip](https://tulip.co/digital-guidance/)); a Aquant ingere os manuais de serviço ([Aquant](https://appsource.microsoft.com/en-us/product/web-apps/aquant.aquant)); a Poka promete respostas ancoradas no conhecimento operacional ([Poka](https://www.poka.io/en/industrial-ai/)).
 2. **O assistente mora dentro da ferramenta que a pessoa já usa.** Ninguém vende um aplicativo de chat separado. Isso bate com a leitura de "pensamento centrado em IA" do briefing.
 3. **A corrida é de "responde" para "faz".** A Siemens diz que quer ir além do modelo de pergunta e resposta e executar fluxos inteiros ([Plant Automation](https://www.plantautomation-technology.com/technology-exclusives/press-releases/siemens-introduces-ai-agents-for-industrial-automation)). A Veeva planeja agentes para novembro de 2026 ([Clarkston](https://clarkstonconsulting.com/insights/veeva-ai-agents/)). A Poka mantém a aprovação do operador antes de agir ([Poka](https://www.poka.io/en/industrial-ai/)).
-4. **A IA da qualidade olha para o escritório.** O lançamento da MasterControl em abril de 2026 resume eventos de qualidade para quem os analisa ([BriefGlance](https://briefglance.com/companies/mastercontrol-solutions-inc/pulses/32346)). Não foi encontrado nada desenhado para quem está de luva ao lado da máquina.
+4. **A IA da qualidade olha para o escritório.** O lançamento da MasterControl em abril de 2026 resume eventos de qualidade para quem os analisa ([BriefGlance](https://briefglance.com/companies/mastercontrol-solutions-inc/pulses/32346)). Não achei nada desenhado para quem está de luva ao lado da máquina.
 5. **Serviço de campo em dispositivos médicos já tem especialista.** A Aquant lista Stryker, Hologic, Cytiva, Elekta e Fresenius como clientes ([Aquant](https://aquant.ai/industries/medical-devices)) e tem assistente por voz para o técnico.
 6. **Promessa em número grande, prova pequena.** "Até 50% de produtividade" na Siemens ([Siemens](https://news.siemens.com/en-us/ai-agents-manufacturing)); "39% mais rápido" na Aquant ([Aquant](https://www.aquant.ai/platform)). São números do próprio vendedor.
 
@@ -267,9 +267,9 @@ São três famílias de produto. Nenhuma é concorrente de verdade num exercíci
 
 ### Limites desta análise
 
-- **Tudo aqui é material de venda.** Nenhum desses produtos foi usado, e as telas reais não foram vistas. "Não aparece no site" não significa "não existe no produto".
+- **Tudo aqui é material de venda.** Não usei nenhum desses produtos nem vi as telas reais. "Não aparece no site" não significa "não existe no produto".
 - **Não há dado de uso.** Nenhuma fonte diz se os operadores usam o chat de fato.
-- **A lista não é completa.** Foram escolhidos exemplos representativos de cada família.
+- **A lista não é completa.** Escolhi exemplos representativos de cada família, como combinado.
 
 ## Fontes
 

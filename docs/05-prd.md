@@ -1,6 +1,6 @@
 # 05 — PRD: assistente de IA para a técnica de qualidade
 
-16 de novembro de 2026 · Jonas José
+Nov 16, 2026 · @Jonas José
 
 ## Resumo
 
@@ -77,24 +77,24 @@ Jornada e telas são coisas diferentes: a jornada é o caminho que Cíntia perco
 ### O que cada tela precisa ter
 
 - **Principal**
-    - Um mapa das máquinas em que a cor conta a história: cada máquina vai mudando de cor conforme passa o tempo desde a última inspeção, e fica em amarelo quando tem uma ocorrência em aberto. Ideia de Jonas.
-    - A cor nunca vem sozinha: cada estado também tem um ícone e uma palavra, para quem não distingue cores e para a luz da fábrica.
-    - As ocorrências em aberto aparecem na própria máquina, sem dizer quem registrou nem de qual turno vieram. O foco é a máquina, não o colega.
-    - Um caminho rápido para defeito já conhecido: registrar em dois toques.
+  - Um mapa das máquinas em que a cor conta a história: cada máquina vai mudando de cor conforme passa o tempo desde a última inspeção, e fica em amarelo quando tem uma ocorrência em aberto. Ideia de Jonas.
+  - A cor nunca vem sozinha: cada estado também tem um ícone e uma palavra, para quem não distingue cores e para a luz da fábrica.
+  - As ocorrências em aberto aparecem na própria máquina, sem dizer quem registrou nem de qual turno vieram. O foco é a máquina, não o colega.
+  - Um caminho rápido para defeito já conhecido: registrar em dois toques.
 - **Interação**
-    - Nenhum teclado no caminho principal.
-    - Máquina e lote já preenchidos.
-    - Para defeito novo: foto e nome.
+  - Nenhum teclado no caminho principal.
+  - Máquina e lote já preenchidos.
+  - Para defeito novo: foto e nome.
 - **Resposta estruturada**
-    - Três blocos com nomes simples, que nunca se misturam (ver a tabela abaixo).
-    - Os caminhos lado a lado. Cada um mostra o que a regra diz, o que aconteceu em casos parecidos e quanto material foi produzido desde a última inspeção boa.
-    - O trecho da regra em uma ou duas linhas, na própria tela. Cíntia não vai parar para ler um documento no meio da produção; o documento completo fica guardado no registro, para quem decide de manhã e para auditoria.
-    - Um estado de "não sei": mostra o caminho mais seguro previsto na regra e deixa o caso sinalizado para a manhã. Chamar alguém é uma opção, não uma obrigação.
-    - O aviso do que é decisão de outra pessoa.
+  - Três blocos com nomes simples, que nunca se misturam (ver a tabela abaixo).
+  - Os caminhos lado a lado. Cada um mostra o que a regra diz, o que aconteceu em casos parecidos e quanto material foi produzido desde a última inspeção boa.
+  - O trecho da regra em uma ou duas linhas, na própria tela. Cíntia não vai parar para ler um documento no meio da produção; o documento completo fica guardado no registro, para quem decide de manhã e para auditoria.
+  - Um estado de "não sei": mostra o caminho mais seguro previsto na regra e deixa o caso sinalizado para a manhã. Chamar alguém é uma opção, não uma obrigação.
+  - O aviso do que é decisão de outra pessoa.
 - **Visão do supervisor**
-    - Os problemas que mais se repetem, agrupados por máquina e tipo de defeito.
-    - Suposições de causa marcadas como suposições, com os casos em que se baseiam.
-    - Nenhuma contagem por pessoa.
+  - Os problemas que mais se repetem, agrupados por máquina e tipo de defeito.
+  - Suposições de causa marcadas como suposições, com os casos em que se baseiam.
+  - Nenhuma contagem por pessoa.
 
 As quatro telas usam uma única linguagem visual.
 
